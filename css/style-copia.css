@@ -81,7 +81,7 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.logoHeader {
+.header__logo {
 
     width: 162px;
     -webkit-box-direction: normal display: inline-block;
