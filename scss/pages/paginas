@@ -1,75 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 html {
     height: 100%;
     font-size: 16px;
 
 }
-
-ul ol{
-    color: black;
-    list-style: none;
-    font-size: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-/* ---- inicio del header ---- */
-
-header {
-
-    position: sticky;
-    padding-top: 28px;
-    padding-bottom: 28px;
-    box-shadow: 0 2px 14px 0 rgb(15 12 49 / 6%);
-    background-color: #006d77;
-    border-bottom: 1px solid #efeef6;
-    text-align: center;
-
-}
-
-nav ul {
-
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #83c5be;
-    gap: 20px;
-    font-size: 18px;
-    color: black;
-    position: -webkit-sticky;
-    border-radius: 12px;
-    align-items: center;
-    height: 80px;
-    text-rendering: optimizeLegibility;
-
-
-}
-
-nav a:hover {
-    color: white;
-}
-
-
-.turnoButtom {
-    background-color: rgba(2, 6, 6, 0.103);
-    color: black;
-    align-self: right;
-    font-size: 1rem;
-    float: right;
-    border-style: outset;
-    margin-right: 40px;
-
-}
-
-
 main {
     overflow: hidden;
     height: 100%;
@@ -77,36 +10,17 @@ main {
 
 }
 
-body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+.comesticaDental {
 
-.logoHeader {
-
-    width: 162px;
-    -webkit-box-direction: normal; 
-    display: inline-block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 24px;
-    padding-left: 24px;
-}
-
-.sloganheader {
-    max-width: 575px;
+    background-color: #83c5c08c;
+    padding: 20px;
+    font-size: 1.8rem;
+    border-radius: 20px;
     text-align: center;
-    align-self: auto;
-    position: relative;
-    top: 270px;
-    flex-direction: column;
-    justify-content: justify;
-    align-items: center;
+    align-items: flex-end;
 }
 
-img {
-    display: inline-block;
-    width: 100%;
-}
+
 
 .caja1 {
 
@@ -117,13 +31,6 @@ img {
     background-size: cover;
 
 }
-
-.cajaCarrusel {
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-}
-
 .h2Main {
     padding: 20px;
     font-size: 1.8rem;
@@ -133,71 +40,15 @@ img {
 
 }
 
-.fontCarousel {
-    color: black;
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.flechaCarousel { 
-    background-color: black;
+img {
+    display: inline-block;
+    width: 100%;
 }
-.footerPrincipal {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    height: auto;
-    background-color: #006d77;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-radius: 20px;
-    font-size: 1.8rem;
-    text-align: center;
-    background-image: url(../aros\ decorativos.svg);
-    margin: 30px;
-    overflow: hidden;
-    text-rendering: optimizeLegibility;
-
-}
-
-.mensajeTurno {
-padding: 20px;
-font-size: 1.6rem;
-border-radius: 20px;
-text-align: center;
-align-self: center;
-}
-
-
-.footerSecundario {
-
-    background-color: #e29578;
-    border-bottom: 1px solid #efeef6;
-    height: auto;
-    padding: 30px 30px 30px 30px;
-    align-items: center;
-    align-self: center;
-    position: relative;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.tamanoLetra {
-    font-size: 1rem;
-}
-
-.imagenFooter {
-    height: 30px;
-    width: 30px;
-    gap: 15px;
-
-}
-
-.imagenUnidad {
-    height: 600px;
-    flex-grow: 1;
-    margin-left: auto;
-}
-
 
 .comesticaDental {
 
@@ -225,17 +76,6 @@ align-self: center;
 
 }
 
-.higieneOral {
-    width: 100px;
-    padding: 5px 5px 5px 5px; 
-    border: solid 10px black;
-    border-radius: 20px;
-    align-self: center; 
-    text-align: center;
-    background-color: white;
-    font-size: 1rem;
-    
-}
 
 .caja3 {
     display: flex;
@@ -274,7 +114,7 @@ align-self: center;
 
 .comesticaDentall {
 
-    padding: 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
     overflow: auto;
     border: solid 1px black;
 }
@@ -286,10 +126,19 @@ align-self: center;
     overflow: auto;
     border: solid 1px black;
     border-radius: 20px;
-    text-align: center;
+    
     background-color: #c7e0e228;
 }
-
+.higieneOral {
+    width: 100px;
+    border: solid 10px black;
+    border-radius: 20px;
+    align-self: center; 
+    text-align: center;
+    background-color: white;
+    font-size: 1rem;
+    
+}
 
 
 
@@ -383,5 +232,3 @@ align-self: center;
     line-height: 1.143em;
     cursor: pointer;
 }
-
-/*----media quieri para mobile---*/   

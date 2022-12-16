@@ -1,0 +1,43 @@
+.footerPrincipal {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    height: auto;
+    background-color: #006d77;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+    background-image: url(../aros\ decorativos.svg);
+    margin: 30px;
+    overflow: hidden;
+    text-rendering: optimizeLegibility;
+
+}
+
+.footerSecundario {
+
+    background-color: #e29578;
+    border-bottom: 1px solid #efeef6;
+    height: auto;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    align-self: center;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagenFooter {
+    height: 30px;
+    width: 30px;
+    gap: 15px;
+
+}
+
+.tamanoLetra {
+    font-size: 1rem;
+}
+
