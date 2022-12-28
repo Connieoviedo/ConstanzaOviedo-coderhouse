@@ -9,117 +9,145 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fasthand&family=Lato:wght@400;700&display=swap"
         rel="stylesheet">
-    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>CAMILA GOMEZ ODONTOLOGIA</title>
 </head>
 
-
 <body>
 
-
     <header>
-        <div class="header__logo">
-            <img src="./img/logo-camila.png" alt="logo doc">
+        <nav class="navbar bg-body-tertiary ">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">
+                    <img src="../img/logo-camila.png" alt="logo doc" width="120" height="120"
+                        class="d-inline-block align-text-top">
 
-            <h1 class="header__titulo text-center display-4 fw-bold"> Odontologa Camila Gómez</h1>
-        </div>
+                    <a class="navbar-brand align-text-center">
+                        <h1 class="navbar__titulo"> Odontóloga Camila Gómez </h1>
+                    </a>
+
+
+
+            </div>
+        </nav>
+    </header>
+
+
+    <header class="header__logo d-flex justify-content-center">
+
+        <nav class="navbar navbar-expand-xxl border-bottom ">
+            <div class="container-fluid header__nav ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">QUIENES SOMOS?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACTO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                SERVICIOS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Higiene Oral</a></li>
+                                <li><a class="dropdown-item" href="#">Endodoncias</a></li>
+                                <li><a class="dropdown-item" href="#">Comestica Dental</a></li>
+                                <li><a class="dropdown-item" href="#">Blanqueamientos</a></li>
+                                <li><a class="dropdown-item" href="#">Implantes</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+        </nav>
+
 
 
     </header>
-
-    <nav class="navbar navbar-expand-xxl border-bottom">
-        <div class= "container-fluid">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">QUIENES SOMOS?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACTO</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            SERVICIOS
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Higiene Oral</a></li>
-                            <li><a class="dropdown-item" href="#">Endodoncias</a></li>
-                            <li><a class="dropdown-item" href="#">Comestica Dental</a></li>
-                            <li><a class="dropdown-item" href="#">Blanqueamientos</a></li>
-                            <li><a class="dropdown-item" href="#">Implantes</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-
     <main>
-        <section class="caja2">
-            <h3 class="comesticaDental">UNA CLINICA DENTAL EN LA QUE PUEDES CONFIAR
-                NUESTRO EQUIPO DE DENTISTAS PUEDEN AYUDARTE OFRECIENDOTE UNA VARIEDAD DE TRATAMIENTOS DENTALES.
-            </h3>
     
-        </section>
+        <section>
+
+      
+        <div class="caja2 d-flex align-items-end border-bottom">
+            <figure class= "text-center">
+                <blockquote class="blockquote comesticaDental ">
+                    <h2> UNA CLINICA DENTAL EN LA QUE PUEDES CONFIAR.
+                        NUESTRO EQUIPO DE DENTISTAS PUEDEN AYUDARTE OFRECIENDOTE UNA VARIEDAD DE TRATAMIENTOS DENTALES. </h2>
+                </blockquote>
+            </figure>
+        </div>
+
+    </section>
 
         <section class="container">
 
-            <div class="row descripcionServicios h-auto w-auto">
+            <div class="row descripcionServicios">
 
-            <div class="col-12 col-md-6 col-xl-2 higieneOral">
-                <h3 class="text-wrap">COMESTICA DENTAL</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <div class="card col-12 col-md-6 col-xl-2 higieneOral" >
+                    <img src="../img/muela2.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="text-wrap">COMÉSTICA DENTAL</h3>
+                        <p>La estética dental es una especialidad odontológica que tiene como objetivo no solo mejorar los dientes y encías, sino que los cambios realizados se integren con el resto de rasgos faciales del paciente. Esta especialidad se compone de tratamientos factibles y adaptables a todo tipo de personas que gocen de un buen estado de salud bucodental.
+                        </p>
+                    </div>
+                </div>
 
-                </p>
+                <div class="card col-12 col-md-6 col-xl-2 higieneOral" >
+                    <img src="../img/muela.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="text-wrap">HIGIENE ORAL</h3>
+                        <p>La higiene oral comprende los procesos que mantienen limpios y sanos a nuestras encías, dientes, lengua y la boca en general, permitiéndonos tener un aliento fresco, conservar nuestras piezas dentarias y no sufrir molestias.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card col-12 col-md-6 col-xl-2 higieneOral" >
+                    <img src="../img/muela3.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="text-wrap">ENDODONCIAS</h3>
+                        <p>La endodoncia es un procedimiento que tiene como finalidad preservar las piezas dentales dañadas, evitando así su pérdida. Para ello, se extrae la pulpa dental y la cavidad resultante, se rellena y sella con material inerte y biocompatible. </p>
+                    </div>
+                </div>
+
+                <div class="card col-12 col-md-6 col-xl-2 higieneOral">
+                    <img src="../img/muela4.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="text-wrap">BLANQUEAMIENTO</h3>
+                        <p>En la odontología estética, el blanqueamiento dental es un tratamiento dental estético que logra reducir varios tonos el color original de las piezas dentales, dejando los dientes más blancos y brillantes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card col-12 col-md-6 col-xl-2 higieneOral">
+                    <img src="../img/muela5.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="text-wrap">IMPLANTES</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+
             </div>
-
-            <div class="col-12 col-md-6 col-xl-2 higieneOral">
-                <h3 class="text-wrap">HIGIENE ORAL</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-            </div>
-
-            <div class="col-12 col-md-6 col-xl-2 higieneOral overflow-hideeen">
-                <h3 class="text-wrap fs-5 fw-bolder">ENDONDONCIAS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-            </div>
-
-            <div class="col-12 col-md-6 col-xl-2 higieneOral">
-                <h3 class="text-wrap">IMPLANTES</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-            </div>
-
-            <div class="col-12 col-md-6 col-xl-2 higieneOral">
-                <h3 class="text-wrap fs-5 fw-bolder">BLANQUEAMIENTO</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-            </div>
-
-        </div>
 
         </section>
 
@@ -127,95 +155,106 @@
 
 
     <footer>
+        <section class="container">
 
-        <section class="container ">
+            <div class="row footerPrincipal  ">
 
-            <div class="row footerPrincipal">
-                
-                <div class="col-lg-8 ">
-                    <h2 class="text-center text-lg-start display-7 fw-bold"> Agenda una cita virtual o presencial hoy.</h2>
-                    
-    
-                    <p class="text-center text-lg-start">Nuestro equipo de dentistas puede ayudarte con una variedad de tratamientos dentales.
-
-                    </p> 
-                    <form action="" class="row">
-                        <div class="mb-3 col-lg-5">
-                            <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
-                            <input type="text" class="form-control" id="nombre-usuario" placeholder="Ej. Martin Perez">
+                <div class="card mb-3 align-items-center" style="max-width 80vh;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../img/agendaturno.jpeg" class="img-fluid rounded-start" alt="...">
 
                         </div>
+                        <div class="col-md-8">
+                            <div class="card-body align-items-center">
+                                <h5 class="card-title">Agenda una cita virtual o
+                                    presencial hoy.</h5>
+                                <p class="card-text">Nuestro equipo de dentistas puede ayudarte con
+                                    una variedad de
+                                    tratamientos dentales. </p>
 
-                        <div class="mb-3 col-lg-5">
-                            <label for="exampleFormControlInput1" class="form-label">Direccion de mail</label>
-                            <input type="email" class="form-control" id="mail-usuario" placeholder="nombre@ejemplo.com">
-                        
+                                <form action="" class="row">
+                                    <div class="mb-3 col-lg-4 justifify-content-center">
+                                        <label for="exampleFormControlInput1" class="form-label">Nombre y
+                                            Apellido</label>
+                                        <input type="text" class="form-control" id="nombre-usuario"
+                                            placeholder="Ej. Martin Perez">
+
+                                    </div>
+
+                                    <div class="mb-3 col-lg-4 justifify-content-center">
+                                        <label for="exampleFormControlInput1" class="form-label">Direccion de
+                                            mail</label>
+                                        <input type="email" class="form-control" id="mail-usuario"
+                                            placeholder="nombre@ejemplo.com">
+
+                                    </div>
+                                </form>
+
+                                <div class="justifify-content-center align-items-center col-lg-2">
+                                    <a href="./pages/contacto.html" class=" turnoButtom btn btn-light ">AGENDA TU
+                                        TURNO</a>
+                                </div>
+                            </div>
+
+
                         </div>
-                    </form>
-                    <div class="d-flex justifify-content-center align-items-start col-lg-2 ">
-                    <a href ="./pages/contacto.html" class=" turnoButtom btn btn-light " >AGENDA TU TURNO</a>
-        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+            <section class="container-fluid">
+
+                <div class="row footerSecundario">
+
+                    <article class="col-12 col-md-6">
+
+                        <h2>
+                            11 30967337
+                        </h2>
+                        <img src="../img/logomovil.svg" class="imagenFooter" alt=" 11 xxxx xxxx">
+
+                        <h2>
+                            camilagomez@hotmail.com
+                        </h2>
+                        <img src="../img/logomail.svg" class="imagenFooter" alt="xxxxxxxxxxxx@xxxx.com">
+
+                        <h2>
+                            Beruti xxxx piso xx dpto xx
+                        </h2>
+                        <img src="../img/logoubicacion.svg" class="imagenFooter" alt="Beruti xxxx piso x ,Palermo">
+                    </article>
+
+                    <article class="col-12 col-md-6">
+
+                        <h3>
+                            Instagram
+                        </h3>
+                        <img src="../img/logoinstagram.png" class="imagenFooter" alt="">
+                        <span class="accentText">
+                            Odgomez
+                        </span>
+                        <a href="" class="btn"> Ir al sitio </a>
+
+                        <br>
+
+                        <h3>
+                            facebook
+                        </h3>
+                        <img src="../img/logofacebook.png" class="imagenFooter" alt="">
+                        <span class="accentText">
+                            Od. Camila Gomez
+                        </span>
+                        <a href="" class="btn"> Ir al sitio </a>
                 </div>
 
-            <div class="col-lg-4 w-25 d-lg-flex justifify-content-center aling-items-center">
-                <img src="../img/formulario.png" alt="" class="d-none d-lg-inline-block">
-            </div>
-        
-            </div>
-            
-            
-
-
-        </section>
-
-        <section class="container-fluid">
-
-            <div class="row footerSecundario">
-                <article class="col-12 col-md-6">
-
-                    <h2>
-                        11 xxxx xxxx
-                    </h2>
-                    <img src="../img/logomovil.svg" class="imagenFooter" alt=" 11 xxxx xxxx">
-
-                    <h2>
-                        camilagomez@hotmail.com
-                    </h2>
-                    <img src="../img/logomail.svg" class="imagenFooter" alt="xxxxxxxxxxxx@xxxx.com">
-
-                    <h2>
-                        Beruti xxxx piso xx dpto xx
-                    </h2>
-                    <img src="../img/logoubicacion.svg" class="imagenFooter" alt="Beruti xxxx piso x ,Palermo">
                 </article>
 
-                <article class="col-12 col-md-6">
 
-                    <h3>
-                        Instagram
-                    </h3>
-                    <img src="../img/logoinstagram.png" class="imagenFooter" alt="logo instagram">
-                    <span>
-                        Odgomez
-                    </span>
-                    <a href="" class="btn"> Ir al sitio </a>
-
-                    <br>
-
-                    <h3>
-                        facebook
-                    </h3>
-                    <img src="../img/logofacebook.png" class="imagenFooter" alt="">
-                    <span>
-                        Od. Camila Gomez
-                    </span>
-                    <a href="" class="btn"> Ir al sitio </a>
-            </div>
-
-            </article>
-
-
-        </section>
+            </section>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
