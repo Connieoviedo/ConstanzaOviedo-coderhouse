@@ -1,0 +1,14 @@
+button {
+    .turno__Button {
+        background-color: rgba(2, 6, 6, 0.103);
+        color: black;
+        align-self: center;
+        font-size: 1rem;
+        border-style: outset;
+        margin-right: 40px;
+    
+    & :hover {
+        transform: scale(1, 1.5);
+        box-shadow: 10px 10px 5px;
+        background-color: #5d4fff;
+    }}}

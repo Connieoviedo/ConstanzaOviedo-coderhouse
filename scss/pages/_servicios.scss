@@ -1,0 +1,23 @@
+
+
+.caja2 {
+    background-color: aliceblue;
+    height: 100vh;
+    background-image: url(../img/servicios.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comesticaDental {
+    background: rgb(170, 165, 221);
+    background: linear-gradient(180deg, rgba(170, 165, 221, 1) 12%, rgba(93, 79, 255, 0.03361344537815125) 80%);
+    padding: 20px;
+    margin: 160px;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: end;
+}

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family:  'Lato', sans-serif;
+}
+
+html {
+    height: 100%;
+    font-size: 16px;
+    font-family:  'Lato', sans-serif;
+}
+
+main {
+    overflow: hidden;
+    height: 100%;
+    padding: 20px;
+
+
+
+            .portadaSomos {
+                background-color: aliceblue;
+                height: 100vh;
+                background-image: url(../img/portada2.jpg);
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .h3Servicios {
+                    background: linear-gradient(180deg, rgba(170, 165, 221, 1) 12%, rgba(93, 79, 255, 0.03361344537815125) 80%);
+                    font-size: 1.8rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .higieneOral {
+                        overflow: auto;
+                        border: solid 1px black;
+                        padding: 10px 10px 10px 10px;
+                        overflow: auto;
+                        border: solid 1px black;
+                        border-radius: 20px;
+                        text-align: center;
+                        background-color: rgba(199, 224, 226, 0.1568627451);
+                    }
+                    
+                }
+            }
+            
+        }
+
+        .imagenTarjeta {
+            width: fit-content;
+        }
+        
+        .mensajeTurno {
+            padding: 20px;
+            font-size: 1.6rem;
+            border-radius: 20px;
+            text-align: center;
+            align-self: center;
+        }
+        
+        
+        .tamanoLetra {
+            font-size: 1rem;
+        }
+        
+        .imagenFooter {
+            height: 30px;
+            width: 30px;
+            gap: 15px;
+        }
+        
+        .imagenUnidad {
+            height: 600px;
+            flex-grow: 1;
+            margin-left: auto;
+        }
+        
+        
+        
+        
+        
+        .caja3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            color: #003049;
+            font-size: 1.8rem;
+            background-color: aliceblue;
+            flex-wrap: nowrap;
+        }
+        
+        .caja4 {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: space-between;
+            gap: 15px;
+            flex-wrap: nowrap;
+            padding: 30px 30px 30px 30px;
+            background-color: rgba(226, 148, 120, 0.662745098);
+            height: 300px;
+        }
+        
+        .caja5 {
+            padding: 50px 50px 50px 50px;
+            background-color: #83c5be;
+            margin: 40px 40px 40px 40px;
+            font-size: 1rem;
+            text-align: center;
+            align-items: bottom;
+            overflow: hidden;
+            width: auto;
+        }
+        
+        .comesticaDentall {
+            padding: 10px 10px 10px 10px;
+            overflow: auto;
+            border: solid 1px black;
+        }
+        
+        
+        .caja6 {
+            height: 10vh;
+            text-align: center;
+            padding: 50px 50px 50px 50px;
+            background-color: #83c5be;
+            margin: 30px 30px 30px 30px;
+            font-size: 1rem;
+            text-align: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .h2index {
+            padding: 120px 90px 90px 120px;
+            text-align: center;
+            align-items: center;
+        }
+        
+        
+        
+        
+        
+        .botonSecundario {
+            margin-right: 14px;
+            padding: 20px;
+            color: #181443;
+            font-size: 14px;
+            line-height: 1.143em;
+            cursor: pointer;}

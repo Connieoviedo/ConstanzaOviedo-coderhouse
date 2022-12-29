@@ -1,0 +1,22 @@
+
+    nav {
+        ul ol {
+            color: black;
+            list-style: none;
+            font-size: 0;
+
+            a {
+                text-decoration: none;
+            
+                .navbar__titulo {
+                    font-family: $tipografia-primaria; 
+                
+                nav a:hover {
+                        color: white;
+                    }
+                    
+                }
+                
+            }
+        }
+    }

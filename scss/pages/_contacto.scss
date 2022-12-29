@@ -1,0 +1,26 @@
+.contactoTurno {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #003049;
+    font-size: 1.8rem;
+    background-color: aliceblue;
+    flex-wrap: nowrap;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+    .formularioTurno {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: #003049;
+        font-size: 1.2rem;
+        background-color: aliceblue;
+        flex-wrap: nowrap;
+        padding-left: 240px;
+        padding-right: 240px;}

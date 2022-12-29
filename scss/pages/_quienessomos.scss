@@ -1,0 +1,23 @@
+.descripcionServicios {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
+    height: auto;
+    overflow: hidden;
+}
+
+.higieneOral {
+    width: 80px;
+    height: 100px;
+    padding: 5px 5px 5px 5px;
+    border: solid 3px black;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    font-size: 1rem;
+    box-shadow: 10px 10px 5px;
+}

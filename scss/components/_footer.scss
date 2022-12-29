@@ -1,0 +1,43 @@
+.footer__principal {
+
+    .caja__Principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        background: linear-gradient(#5d4fff, #aaa5dd);
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-radius: 20px;
+        font-size: 1rem;
+        text-align: center;
+        margin: 30px;
+        overflow: hidden;
+        text-rendering: optimizeLegibility;
+    
+    
+    .imagenFooter {
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    
+    }}
+
+    .footerSecundario {
+        background: rgb(170, 165, 221);
+        background: linear-gradient(180deg, rgba(170, 165, 221, 1) 12%, rgba(93, 79, 255, 0.03361344537815125) 80%);
+        border-bottom: 1px solid #efeef6;
+        height: auto;
+        padding: 30px 30px 30px 30px;
+        align-items: center;
+        align-self: center;
+        position: relative;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        box-shadow: 10px 10px 5px;
+    }
+    
