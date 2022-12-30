@@ -1,10 +1,3 @@
-/* Error: Undefined variable.
- *    ,
- * 12 |                     font-family: $tipografia-primaria; 
- *    |                                  ^^^^^^^^^^^^^^^^^^^^
- *    '
- *   scss/components/_barranav.scss 12:34  @import
- *   scss/main.scss 5:9                    root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
